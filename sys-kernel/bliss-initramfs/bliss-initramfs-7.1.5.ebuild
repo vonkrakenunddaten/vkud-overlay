@@ -6,13 +6,10 @@ EAPI=7
 PYTHON_COMPAT=( python{3_4,3_5,3_6} )
 inherit python-single-r1 git-r3
 
-GITHUB_USER="vonkrakenunddaten"
-GITHUB_REPO="bliss-initramfs"
-GITHUB_TAG="${PV}"
 
 DESCRIPTION="Boot your system's rootfs from ZFS, LVM, RAID, or a variety of other configs."
-HOMEPAGE="https://github.com/${GITHUB_USER}/${GITHUB_REPO}"
-SRC_URI="https://github.com/${GITHUB_USER}/${GITHUB_REPO}/archive/${GITHUB_TAG}.tar.gz -> ${P}.tar.gz"
+HOMEPAGE="https://github.com/vonkrakenunddaten/bliss-initramfs"
+SRC_URI="https://github.com/vonkrakenunddaten/bliss-initramfs/archive/7.1.5.tar.gz"
 
 REQUIRED_USE="${PYTHON_REQUIRED_USE}"
 RESTRICT="mirror"
