@@ -1,2 +1,2 @@
-# portage-overlay
+# vkud-overlay
 vkud personal portage overlay
