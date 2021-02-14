@@ -12,7 +12,7 @@ case "${PV}" in
 	EGIT_PROJECT="${PN}.git"
 	;;
 	(*)
-	KEYWORDS="~amd64 ~arm ~x86"
+	KEYWORDS="amd64 ~arm ~x86"
 	VCS_ECLASS=vcs-snapshot
 	SRC_URI="https://github.com/vonkrakenunddaten/${PN}/archive/${PV}.tar.gz -> ${P}.tar.gz"
 	;;
