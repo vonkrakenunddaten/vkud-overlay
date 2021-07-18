@@ -7,8 +7,8 @@ PYTHON_COMPAT=( python{3_6,3_7,3_8} )
 inherit python-single-r1
 
 DESCRIPTION="Boot your system's rootfs from OpenZFS/LUKS"
-HOMEPAGE="https://github.com/fearedbliss/bliss-initramfs"
-SRC_URI="https://github.com/fearedbliss/${PN}/archive/${PV}.tar.gz -> ${P}.tar.gz"
+HOMEPAGE="https://github.com/vonkrakenunddaten/bliss-initramfs"
+SRC_URI="https://github.com/vonkrakenunddaten/${PN}/archive/${PV}.tar.gz -> ${P}.tar.gz"
 
 REQUIRED_USE="${PYTHON_REQUIRED_USE}"
 RESTRICT="strip"
